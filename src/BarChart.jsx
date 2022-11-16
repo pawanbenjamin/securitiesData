@@ -25,7 +25,7 @@ export const options = {
   }
 }
 
-export default function Bar(props) {
+export default function BarChart(props) {
   let labels = props.data.map((entry) => {
     return entry.security_desc
   })
@@ -43,11 +43,8 @@ export default function Bar(props) {
     ]
   }
 
-  console.log(data)
-
   return (
     <div>
-      Chart
       <Bar options={options} data={data} />
     </div>
   )
