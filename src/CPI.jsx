@@ -67,8 +67,7 @@ export default function PriceIndex() {
 
   return (
     <div>
-      PriceIndex
-      {JSON.stringify(values)}
+      <h3>US CPI</h3>
       <Line options={options} data={data} />
     </div>
   )
